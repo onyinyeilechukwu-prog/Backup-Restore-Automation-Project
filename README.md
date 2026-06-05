@@ -4,20 +4,6 @@ A homelab project simulating a real-world backup and restore system
 
 A homelab project simulating a real-world backup and restore system for a small consulting firm. Built on Ubuntu 22.04 using `rsync`, `bash scripting`, `cron`, and `logrotate`.
 
----
-
-## 📋 Table of Contents
-
-- [Project Scenario](#project-scenario)
-- [Skills Gained](#skills-gained)
-- [Project Structure](#project-structure)
-- [Phase 1 — Rsync Backup Script](#phase-1--rsync-backup-script)
-- [Phase 2 — Scheduling with Cron](#phase-2--scheduling-with-cron)
-- [Phase 3 — File Versioning](#phase-3--file-versioning)
-- [Screenshots](#screenshots)
-- [Key Lessons Learned](#key-lessons-learned)
-
----
 
 ## 🏢 Project Scenario
 
@@ -32,20 +18,6 @@ A homelab project simulating a real-world backup and restore system for a small 
 | Backup destination | Local disk (`/backup/`) |
 | Recovery Time Objective (RTO) | Under 2 hours |
 | Retention policy | 30 days of versioned snapshots |
-
----
-
-## 🛠️ Skills Gained
-
-- Writing backup scripts in `bash`
-- Using `rsync` flags including `-a`, `--delete`, `--stats`, and `--link-dest`
-- Scheduling automated jobs with `cron` and `crontab`
-- Setting up log rotation with `logrotate`
-- File versioning using dated snapshot folders and hardlinks
-- Building a retention policy to manage disk space
-- Simulating a ransomware attack and restoring from a clean snapshot
-- Linux file permissions with `chmod` and `chown`
-- Debugging bash scripts using `bash -x`
 
 ---
 
